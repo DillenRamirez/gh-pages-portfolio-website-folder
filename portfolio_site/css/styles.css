@@ -11,7 +11,6 @@
   /*white*/
   --dark-grey: #2b2b2b;
   --third-color: #ffff00;
-  /*yellow*/
   --fourth-color: #05676e;
   --fith-color: #489c79;
   --sixth-color: #357b70;
@@ -243,7 +242,7 @@ ul {
 @keyframes color-change {
   from {
     fill: var(--ninth-color);
-    
+
   }
 
   to {
