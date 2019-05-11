@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Contacts</title>
+  <title>Contact Dillen Ramirez</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.production.css">
@@ -12,8 +12,9 @@
 
 <body>
   <header>
-    <img src="http://via.placeholder.com/200x70" alt="logo">
-    <nav>
+    <!--<img src="http://via.placeholder.com/200x70" alt="logo">-->
+    <h1><em>Dillen Ramirez</em></h1>
+    <nav class="main-navigation page-header__item ">
       <ul role="menubar" class="navigation-list">
         <li role="presentation">
           <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
@@ -51,13 +52,13 @@
     </P>
 
     <form action="" method="post">
-      <label for="contact-email">Email:</label>
+      <label class="contact-form" for="contact-email">Email:</label>
       <input type="email" id="contact-email" required>
 
-      <label for="telephone-number">Telephone:</label>
+      <label class="contact-form" for="telephone-number">Telephone:</label>
       <input type="tel" id="telephone-number">
 
-      <label for="message">Message:</label>
+      <label class="contact-form" for="message">Message:</label>
       <textarea maxlength="240" required id="message"></textarea>
 
       <input type="submit" value="Send message">
