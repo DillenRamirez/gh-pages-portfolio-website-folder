@@ -4,11 +4,11 @@
   font-family main- Roboto slab
   font-family secondary - Montserrat
 */
-:root {
-  /*cool blue*/
-  /*white*/
-  /*yellow*/
-}
+/*:root {
+  --primary-color: #357b70;
+  --secondary-color: #FFFFFF;
+  --dark-grey: #2b2b2b;
+}*/
 
 body {
   background-color: #001328;
@@ -35,6 +35,10 @@ h2 {
 }
 
 p {
+  color: #FFFFFF;
+}
+
+.contact-form{
   color: #FFFFFF;
 }
 
